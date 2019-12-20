@@ -108,11 +108,11 @@ const main = () => {
       // TodoListItemElementの中に、チェック済みの要素が存在するか？
       const isChecked = Boolean(TodoListItemElement.querySelector(':checked'))
 
-      // チェック済みでなければ、invisibleというclassを削除して、アイテムを表示する
+      // チェック済みであれば、invisibleというclassを削除して、アイテムを表示する
       if (isChecked) {
         TodoListItemElement.classList.remove('invisible')
       }
-      // チェック済みであれば、invisibleというclassを追加して、アイテムを隠す
+      // チェック済みでなければ、invisibleというclassを追加して、アイテムを隠す
       else {
         TodoListItemElement.classList.add('invisible')
       }
