@@ -57,8 +57,11 @@ Todoアイテムの編集と削除する機能の作成
 - (step4) Todoアイテムをリストから削除する機能
 - (step5) Todoが終了したことを示す機能
 > デザインは画像の通りでなくてもよい。
+<img alt="Step4" src="https://github.com/tea-app/tutorial-todo/blob/master/img/step4.png" width="320px">
 
 # Step 6 - 7
 Todoアイテムの絞り込み機能
 - (step6) All/Active/Completedのスタイルの作成
 - (step7) Allは全てのタスクを表示し、Activeでは未完了のタスクのみを表示。Completedは完了済みのタスクを表示します。
+<img alt="Step6-1" src="https://github.com/tea-app/tutorial-todo/blob/master/img/step6-1.png" width="320px">
+<img alt="Step6-2" src="https://github.com/tea-app/tutorial-todo/blob/master/img/step6-2.png" width="320px">
